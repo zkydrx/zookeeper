@@ -15,7 +15,7 @@ import java.io.IOException;
  */
 public class MyZookeeper
 {
-    private static String connectString="35.189.178.24:2181";
+    private static String connectString="130.211.252.172:2181";
 
     //会话的超时时间
     private static final int sessionTimeOut = 888888;

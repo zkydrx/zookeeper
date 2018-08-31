@@ -1,5 +1,6 @@
 package com.htt;
 
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,7 +18,7 @@ class ZookeeperPracticeTest
 {
 
     private ZookeeperPractice zookeeperPractice = new ZookeeperPractice();
-    private final String connectionString="35.189.178.24:2181";
+    private final String connectionString="130.211.252.172:2181";
     private final int sessionTimeOut=3000;
     @BeforeEach
     void setUp()
@@ -50,7 +51,7 @@ class ZookeeperPracticeTest
     {
         zookeeperPractice.createConnection(connectionString,sessionTimeOut);
 //        boolean linux = zookeeperPractice.createPath("/abcd", "linux");
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 10; i++)
         {
             zookeeperPractice.createPath("/a"+i,"i"+i);
         }

@@ -18,7 +18,7 @@ public class ZookeeperHello
     public static void main(String[] args) throws IOException, KeeperException, InterruptedException
     {
         //连接zookeeper服务
-        ZooKeeper zooKeeper = new ZooKeeper("35.189.178.24:2181", 3000000, new
+        ZooKeeper zooKeeper = new ZooKeeper("130.211.252.172:2181", 3000000, new
                                 DemoWatcher());
         //连接zookeeeper 集群服务使用开源框架zkclient简化代码
 //        ZooKeeper zooKeeper = new ZooKeeper("35.189.178.24:2181,35.189.178.24:2182,35.189.178.24:2183", 3000000, new

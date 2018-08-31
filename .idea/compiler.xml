@@ -9,8 +9,5 @@
         <module name="zookeeper" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="zookeeper" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
